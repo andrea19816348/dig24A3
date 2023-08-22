@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/themes/light.css"/>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/shoelace-autoloader.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/879537fc99.js" crossorigin="anonymous"></script>
+    <title>Pulse Property Solutions</title>
+    <link rel="icon" type="image/x-icon" href="images/Pulse-Property-Solutions-favicon.png">
+</head>
+<body> 
+
+  <div class="container">  
+
+    <!------------------------------------- PANEL 1 HOME ------------------------------------------------>
+    <section class="panel home" id="home">
+      <div class="home-bg regular"></div>
+      <div class="home-bg accessible"></div>   
+        <div class="columns">
+          <!-- Navigation bar -->
+          <div class="column navigation">
+            <div class="navigation-reg">
+              <!-- regular nav bar version -->
+              <nav class="nav-list nav-regular">       
+                  <a class="anchor" href="#about">About Us</a>
+                  <a class="anchor" href="#experience">Experience</a>
+                  <a class="anchor" href="#projects">Projects</a>
+                  <a class="anchor" href="#services">Services</a>
+                  <a class="anchor" href="#contact">Contact Us</a>
+                  <a href="https://pulsepropertysolutions.com.au" target="_blank"><img class="nav-icon" src="images/Pulse-Property-Solutions-favicon.png" alt="Pulse-Property-Solutions-Icon" width="50" height="50"/></a>
+              </nav>
+            </div>
+            <!-- accessible nav bar version (high contrast) -->
+            <div class="navigation-acc">
+                <nav class="nav-list nav-accessible">       
+                    <a href="#about" class="anchor">About Us</a>
+                    <a href="#experience" class="anchor">Experience</a>
+                    <a href="#projects" class="anchor">Projects</a>
+                    <a href="#services" class="anchor">Services</a>
+                    <a href="#contact" class="anchor">Contact Us</a>
+                    <a href="https://pulsepropertysolutions.com.au" target="_blank"><img class="nav-icon" src="images/Pulse-Property-Solutions-favicon.png" alt="Pulse-Property-Solutions-Icon" width="50" height="50"/></a>
+                </nav> 
+            </div>     
+          </div>
+          <!-- main content -->
+          <div class="column column-content">
+            <div class="row row-content">
+                <div class="content-column question">
+                    <!-- css animation -->
+                    <h1 id="header-line-1">WHY</h1>
+
+                    <h2 id="header-line-2">use a project<br>manager for your</h2>
+                    <!-- animate.css animation -->
+                    <h2 id="header-line-3" class=" animate__animated animate__flipInX animate__delay-3s">SDA build</h2>
+                </div>
+                <div class="content-column question-mark qm-regular">
+                    <h3 id="question-mark-regular">?</h3>
+                </div>
+                <div class="content-column question-mark qm-accessible">
+                    <h3 id="question-mark-accessible">?</h3>
+                </div>
+                <div class="content-column switch-column">
+                    <div class="switch-container">
+                        <!-- shoelace tooltip -->
+                        <sl-tooltip id="switch-tooltip" content="Switch to high contrast" placement="bottom">
+                          <!-- shoelace switch -->  
+                          <sl-switch id="accessibility-switch">Accessbility Switch</sl-switch>
+                        </sl-tooltip>
+                    </div>
+                </div> 
+            </div>
+            <!--navigation arrows-->
+            <div class="row home-arrows">
+              <div class="home-arrows-col1"></div>
+              <div class="home-arrows-col2">
+                <div class="home-next-arrows-container">
+                  <a class="home-next-slide-right">
+                    <p class="home-next">NEXT</p>
+                    <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+    </section>
+
+    <!------------------------------------- PANEL 2 ABOUT ------------------------------------------------>
+    <section class="panel about" id="about">
+      <div class="about-bg regular"></div>
+      <div class="about-bg accessible"></div>
+      <!-- main content -->
+      <div class="about-row"> 
+        <div class="intro-column">
+            <p>Pulse Property Solutions can assist with each step of the property development process. With our extensive experience in the residential development space, a comprehensive understanding of social and disability houisng and knowledge around the complexities of planning frameworks our team is well positioned to deliver an exceptional end-to-end property development service.</p>
+        </div>
+        <div class="about-column">
+            <img id="about-us-page-logo" src="images/Pulse-Property-Solutions-Logo.png" alt="Pulse Property Solutions Logo" width="200">
+            <h2>Risk Management</h2>
+            <p>Reduce risk with an experienced SDA developer managing your project</p>
+            <h2>Compliance Confidence</h2>
+            <p>With a thorough knowledge of the complexities of the SDA Design Standard we work closely with the SDA Certifier and the entire consultant team</p>
+            <h2>Experience and Knowledge</h2>
+            <p>Our team has a comprehensive understanding of disability housing and knowledge around the complexities of planning frameworks and obtaining permits efficiently to deliver within reasonable timeframes</p>
+        </div>
+        <div class="pic-column">
+            <!-- css animation -->
+            <img src="images/Development-Management-Perth-Pulse-Property-Solutions-HOME.jpg" alt="Pulse Property Solutions Directors">
+        </div>
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!------------------------------------- PANEL 3 EXPERIENCE ------------------------------------------------>
+    <section class="panel experience" id="experience">
+      <div class="experience-page">
+        <!-- main content -->
+        <div class="experience-row">
+          <div class="experience-intro-column" id="experience-intro-column">
+              <div class="experience-intro-row">      
+                  <img src="images/nathan-anderson-GM5Yn5XRVqA-unsplash.jpg" alt="middle aged woman and young man hugging and smiling">
+                  <p>The team at Pulse are committed to developing long term relationships with clients, contractors, investors, and suppliers to ensure every step of the development process is given the consideration it deserves. As property developers and investors ourselves we understand the importance of delivering a quality product on time and on budget.</p>
+              </div>
+          </div>
+          <!-- timeline -->
+          <div class="timeline-column">
+            <div class="timeline">
+              <div class="item-container-pair pair-1">
+                <div class="item-container item1 timeline-animations animation">
+                  <div class="content">
+                    <img src="images/girrawheen.jpg" alt="Front elevation of Girrawheen disability home">
+                    <br>
+                    <p>Pulse is a experience family-owned property developer with many projects throughout Perth, the Southwest, the Pilbara and the Mid-West of WA since it's establishment.</p>
+                    <h2>2008</h2>
+                    <div class="timeline-marker top-marker"></div>
+                  </div>
+                </div>
+                <div class="item-container item2 timeline-animations animation">
+                  <div class="content">
+                    <img src="images/bayswater3.jpg" alt="Front elevation of Bayswater disability home">
+                    <br>
+                    <p>Pulse completes its second Pulse-owned SDA development in the suburb of Bayswater, featuring a private studio in each home. Additionally, Pulse hands over a two-home development to their second SDA Project Management client in Yokine.</p>
+                    <h2>2022</h2>
+                    <div class="timeline-marker top-marker"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- accessible versions of timeline -->
+              <div class="line-area regular"></div>
+              <div class="line-area accessible"></div>
+              <div class="item-container-pair pair-2">
+                <div class="item-container item3 timeline-animations animation">
+                  <div class="content">
+                    <div class="timeline-marker bottom-marker"></div>
+                    <h2>2021</h2>
+                    <p>Pulse becomes a registered SDA Provider and completes the first single-resident four-villa development in Warwick built to the High Physical Support category under NDIS guidelines.</p>
+                    <br>
+                    <img src="images/warwick1.jpg" alt="Front elevation of single-resident Warwick disability home">
+                  </div>
+                </div>
+                <div class="item-container item4 timeline-animations animation">
+                  <div class="content">
+                    <div class="timeline-marker bottom-marker"></div>
+                    <h2>2023</h2>
+                    <p>A second development Pulse-owned SDA development in Warwick is completed. This development comprises of two homes, a two-resident and a three-resident share-living arrangement.</p>
+                    <br>
+                    <img src="images/warwick2.jpg" alt="Elevation of two-home disability development in Warwick">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--navigation arrows-->
+        <div class="row arrows">
+          <div class="arrows-col1">
+              <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+          </div>
+          <div class="arrows-col2">
+            <div class="next-arrows-container">
+              <a class="next-slide-right">
+                <p class="next">NEXT</p>
+                <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!------------------------------------- PANEL 4 PROJECTS ------------------------------------------------>
+    <section class="panel projects" id="projects">
+      <div class="projects-bg regular"></div>
+      <div class="projects-bg accessible"></div>
+      <!-- main content -->
+      <div class="projects-row">
+        
+        <div class="projects-column">
+          <h2 id="projects-header">PROJECTS</h2>
+          <p>We deliver stunning boutique developments every time which fuse location and lifestyle. Scroll through our gallery to see some of our most recently completed projects.</p>
+        </div>
+        <div class="gallery-container">
+          <!-- splide image gallery -->
+          <div class="splide" role="group" aria-label="carousel">
+            <h2 id="carousel"></h2>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><img src="images/r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="Brown and white wooden house near green trees during daytime"></li>
+                <li class="splide__slide"><img src="images/r-architecture-rOk4VSMS3Ck-unsplash.jpg" alt="Gray sectional couch beside brown wooden table"></li>
+                <li class="splide__slide"><img src="images/r-architecture-L_j9OWElo1s-unsplash.jpg" alt="Brown wooden house during night time"></li>
+                <li class="splide__slide"><img src="images/r-architecture-NeN1D7Z3Ick-unsplash.jpg" alt="White and brown concrete building under blue sky during daytime"></li>
+                <li class="splide__slide"><img src="images/r-architecture-Cn87TISYij8-unsplash.jpg" alt="Brown tree near white concrete building" ></li>
+                <li class="splide__slide"><img src="images/r-architecture-wDDfbanbhl8-unsplash.jpg" alt="Black wooden table and chairs"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!------------------------------------- PANEL 5 SERVICES ------------------------------------------------>
+    <section class="panel services" id="services">
+      <div class="services-bg regular"></div>
+      <div class="services-bg accessible"></div>
+      <!-- main content -->
+      <div class="services-row">
+        <div class="services-column">
+          <h2 class="services-header">Tailored management services to suit your project</h2>
+          <img src="images/nathan-anderson-J3Xjyg5m8kY-unsplash.jpg" alt="man and boy with heads together affectionately">
+        </div>
+        <!-- shoelace tab panel -->
+        <div class="tab-panel-column">
+          <sl-tab-group id="tab-group">
+            <sl-tab slot="nav" panel="Concept" id="concept-title">Concept & Design Development</sl-tab>
+            <sl-tab slot="nav" panel="DA" id="da-title">DA ready design & compliance</sl-tab>
+            <sl-tab slot="nav" panel="Construction" id="construction-title">Construction Management</sl-tab>
+
+            <sl-tab-panel name="Concept" id="concept-panel">
+                <div class="tab-container">
+                  <div class="tab concept-col1">
+                  <img src="images/concept-icon.png" alt="" id="concept-image"> 
+                  </div>
+                  <div class="tab concept-col2"> 
+                  <ul class="tab-list">
+                    <li>Site review and assessment</li>
+                    <li>Design configuration analysis</li>
+                    <li>Design brief</li>
+                    <li>Concept layouts</li>
+                  </ul>
+                </div>
+              <div class="tab concept-col3"></div>
+                </div>  
+            </sl-tab-panel>
+            <sl-tab-panel name="DA" id="da-panel">
+              <div class="tab-container">
+                <div class="tab-container"></div>
+                <div class="tab da-col1"></div>
+                <div class="tab da-col2">
+                <img src="images/DA-ready-icon.png" alt="" id="da-image">
+                </div>
+                <div class="tab da-col3">
+                <ul class="tab-list">
+                  <li>Development application design and coordination</li>
+                  <li>SDA compliance liaison</li>
+                  <li>Consultant team recommendations and collaboration</li>
+                  <li>Design recommendations to meet client and market needs</li>
+                </ul>
+              </div>
+              </div>
+            </sl-tab-panel>
+            <sl-tab-panel name="Construction" id="construction-panel">
+              <div class="tab-container">
+                <div class="tab const-col1"></div>
+                <div class="tab const-col2">
+                  <img src="images/construction-icon.png" alt="" id="construction-image">
+                </div>
+                <div class="tab const-col3">
+                  <ul class="tab-list">
+                    <li>Finalise specification and selections</li>
+                    <li>Build contract negotiations</li>
+                    <li>Site inspections and progress reports</li>
+                    <li>Builder liaison during construction</li>
+                  </ul>
+                </div>
+                </div>
+            </sl-tab-panel> 
+          </sl-tab-group>
+        </div>
+        <div class="brick-container">
+          <div class="brick-row row1">
+            <div class="brick"></div>
+            <div class="brick"></div>
+            <div class="brick"></div>
+            <div class="brick"></div>
+          </div>
+          <div class="brick-row row2">
+            <div class="brick"></div>
+            <div class="brick"></div>
+            <div class="brick"></div>
+            <div class="brick"></div>          </div>
+        </div>  
+      </div>
+      <!--navigation arrows-->
+      <div class="row arrows">
+        <div class="arrows-col1">
+            <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+        </div>
+        <div class="arrows-col2">
+          <div class="next-arrows-container">
+            <a class="next-slide-right">
+              <p class="next">NEXT</p>
+              <i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i><i class="fas fa-angle-right fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--PANEL 6 CONTACT-->
+    <section class="panel contact" id="contact">
+      <div class="contact-bg regular"></div>
+      <div class="contact-bg accessible"></div> 
+      <div class="contact-container">
+        <div class="contact-column">
+          <h2>Contact Us</h2>
+            <!-- form -->
+            <div class="form-container">
+              <form action="/action_page.php">
+                <div class="row">
+                  <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="row">
+                  <input type="text" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="row">
+                  <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="row">
+                  <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                </div>
+                <br>
+                <div class="row">
+                  <!-- shoelace dialog -->
+                  <sl-dialog label="Thank you for contacting us. " class="dialog-width" style="--width: 50vw;">
+                    One of our team members will be in contact shortly to discuss how we can help with your SDA project soon.
+                    <br><br>In the meantime take a look at our website to find out more about our full suite of services:&nbsp;<a href="#">pulsepropertysolutions.com.au</a>
+                    <br><br><br><img src="images/Pulse-Property-Solutions-Logo.png" alt="Pulse Property Solutions Logo">
+                    <sl-button class="close-button" slot="footer" variant="primary">Close</sl-button>
+                  </sl-dialog>
+                  <sl-button>SUBMIT</sl-button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="image-column">
+              <img src="images/elevate-vofmJUVScDE-unsplash.jpg" alt="man in wheelchair enjoying a drink with friends"> 
+        </div>
+        <!--navigation arrows-->
+        <div class="row arrows">
+          <div class="arrows-col1">
+              <a class="previous-slide-left"><i class="fas fa-angle-left fa-2xl"></i>PREVIOUS</a>
+          </div>
+          <div class="arrows-col2">
+            <div class="back-to-home">
+              <a class="back-to-home">
+                <i class="fa-solid fa-arrow-rotate-left fa-bounce fa-2xl"></i><p id="back-to-home">&nbsp;&nbsp;BACK TO HOME</p>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+   
+  <!-- import scripts -->  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/shoelace-autoloader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
